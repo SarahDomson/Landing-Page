@@ -7,13 +7,17 @@
     <link rel="stylesheet" href="styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
+    <header class="head">
         <div>
             <img src="asset/header img.jpg">
-        <h2>Website Logo</h2>
+        <h2>
+            <a href="#">Website Logo</a>
+        </h2>
 
-        <nav>
+        <nav class="container">
             <li>Home</li>
             <li>Products</li>
             <li>About</li>
@@ -24,24 +28,25 @@
         <h3>A freebie by Tutorialzine.</h3>
         <a href="https://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox/" class="button">Download it here</a>
     </div>
+    </header>
 
 
-    <section>
+    <section class="work">
         <h3>Some Of Our Work</h3>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
 
         <hr>
 
-        <div>
-            <img src="asset/coast.jpg">
-            <img src="asset/island.jpg">
-            <img src="asset/balloon.jpg">
-            <img src="asset/mountain.jpg">
+        <div class="grid">
+            <img src="asset/coast.jpg" class="small">
+            <img src="asset/island.jpg" class="large">
+            <img src="asset/balloon.jpg" class="large">
+            <img src="asset/mountain.jpg" class="small">
         </div>
     </section>
 
-    <section>
+    <section class="service">
         <h3>Features And Services</h3>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
@@ -49,19 +54,19 @@
         <hr>
 
         <div>
-            <i class="fa-solid fa-camera-retro"></i>
+            <i class="fa fa-camera-retro"></i>
             <h4>Photography</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
         </div>
 
         <div>
-            <i class="fa fa-camera-retro"></i>
+            <i class="fa fa-cubes"></i>
             <h4>Web Development</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
         </div>
 
         <div>
-            <i class="fa fa-camera-retro"></i>
+            <i class="fa-solid fa-newspaper"></i>
             <h4>Content Editing</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
         </div>
@@ -82,9 +87,9 @@
     </section>
 
     <section>
-        <h3></h3>
+        <h3>Join Our Newsletter</h3>
 
-        <p></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
 
         <hr>
 
@@ -97,7 +102,15 @@
     </section>
 
     <footer>
-
+        <ul>
+			<a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+			<a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+			<a href="#"><i class="fa-brands fa-square-snapchat"></i></a>
+			<a href="#"><i class="fa-brands fa-square-pinterest"></i></a>
+			<a href="#"><i class="fa-brands fa-square-github"></i></a>
+		</ul>
+		<p>Made by <a href="https://tutorialzine.com/" target="_blank">tutorialzine</a>. images courtesy to <a href="https://unsplash.com/" target="_blank">unsplash</a>.</p>
+		<p>No attribution required. you can remove this footer.</p>
     </footer>
 
 </body>
