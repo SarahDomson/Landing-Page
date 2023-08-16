@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    top: 8px;
+    left: 16px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.container {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div h1 {
+    font-size: 80px;
+    color: white;
+    margin-bottom: 15px;
+}
